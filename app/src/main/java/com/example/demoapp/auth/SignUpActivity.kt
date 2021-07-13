@@ -44,7 +44,7 @@ class SignUpActivity : AppCompatActivity() {
             Toast.makeText(this,"Please enter your email and password", Toast.LENGTH_SHORT).show()
         }
 
-        if(password.equals(confirmPassword))
+        if(password!=confirmPassword)
         {
             Toast.makeText(this,"Password and Confirm password doesn't match", Toast.LENGTH_SHORT).show()
         }

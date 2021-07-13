@@ -43,7 +43,7 @@ class DetailsActivity() : AppCompatActivity() {
              else
              {
                  insertIntoDatabase(date!!)
-                 Toast.makeText(this,"Profile Updated",Toast.LENGTH_SHORT).show()
+                 Toast.makeText(this,"Profile Added",Toast.LENGTH_SHORT).show()
                  val intent = Intent(this,MainActivity::class.java)
                  startActivity(intent)
                  finish()
