@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+
+    <string-array name="education">
+        <item>Btech</item>
+        <item>B.Arch</item>
+        <item>B.Sc.</item>
+        <item>B.A</item>
+        <item>B.Comm.</item>
+    </string-array>
+
+
+</resources>
